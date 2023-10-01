@@ -28,7 +28,7 @@ header h1 .seo {
 
 /* Class Selectors */
 
-header nav {
+header .nav-main {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,11 +36,11 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+header .nav-main ul {
     list-style-type: none;
 }
 
-header nav ul li {
+header .nav-main ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -54,7 +54,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -62,6 +62,18 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Visually hides screen-readable version of image  */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
 
 .float-left {
     float: left;
