@@ -36,4 +36,4 @@ To use this web page, you can open index.html inside a browser. To see the refac
 
 ## License
 
-MIT - See LICENSE file in repo.
+MIT - [See LICENSE file in repo](https://github.com/partialarts/week1-refactor-challenge/blob/main/LICENSE)
