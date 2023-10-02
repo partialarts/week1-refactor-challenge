@@ -27,7 +27,7 @@ To use this web page, you can open index.html inside a browser. To see the refac
 * [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
 * [HTML Accessibility](https://www.w3schools.com/html/html_accessibility.asp)
 * [Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
-* [Making background images accessible - Stack Overflow answer](https://stackoverflow.com/questions/48913759/how-to-add-alt-text-to-background-images-making-background-images-accessible/#48913760) - Used .sr-only selector in CSS file
+* [Making background images accessible - Stack Overflow answer](https://stackoverflow.com/questions/48913759/how-to-add-alt-text-to-background-images-making-background-images-accessible/#48913760) - Used .sr-only selector in CSS file to visually hide screen-readable version of image
 * [Using Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11)
 * [DEV 1.10 – Provide native HTML 5 for elements and ARIA for landmarks](https://universaldesign.ie/technology-ict/web-accessibility-techniques1/developer-s-introduction-and-index/dev-1-provide-an-accessible-page-structure-and-layout/dev-1-10-%E2%80%93-provide-native-html-5-for-elements-and-aria-for-landmarks/)
 * [Using HTML5 section element](https://www.w3.org/WAI/GL/wiki/Using_HTML5_section_element)
