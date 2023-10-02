@@ -1,12 +1,16 @@
 /* Universal Selector */
+
 * {
+    /* Includes padding and borders in width and height of all elements */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 /* ID Selector */
+
 #nav-main {
+    /* Styles and positions all items in the nav element and floats it to the right of the page */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -15,11 +19,14 @@
 }
 
 /* Element Selectors */
+
 body {
+    /* body background colour*/
     background-color: #d9dcd6;
 }
 
 header {
+    /* Styling for header - dictates positioning, size, font, background colour and text colour */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -27,33 +34,41 @@ header {
 }
 
 header h1 {
-    display: inline-block;
+    /* Company logo size and positioning */
+    display: inline;
     font-size: 48px;
 }
 
 header h1 .seo {
+    /* Styles letters "seo" in company logo */
     color: #d9dcd6;
 }
 
 header nav ul {
-    list-style-type: none;
+    /* Removes list markers from navigation */
+    list-style-type: disc;
 }
 
 header nav ul li {
-    display: inline-block;
+    /* Adds space between each navigation element and displays them side by side */
+    display: inline;
     margin-left: 25px;
 }
 
 a {
+    /* Link colour and style */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* P tag text size */
     font-size: 16px;
 }
 
 footer {
+    /* Positioning and styling for footer and ensures no floating elements
+    on either side */ 
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -61,11 +76,14 @@ footer {
 }
 
 footer h2 {
+    /* footer text size */
     font-size: 20px;
 }
 
 /* Class selectors */
+
 .background {
+    /* Positioning, sizing and location of background image */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -87,22 +105,26 @@ footer h2 {
   }
 
 .float-left {
+    /* Defines positioning for all elements with the .float-left class selector */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* Defines positioning for all elements with the .float-right class selector */
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* Position and size for main content section */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .article-main {
+    /* Position, size and styling for each article in main content section */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -112,15 +134,19 @@ footer h2 {
 }
 
 .article-main img {
+    /* sets size of each image inside article elements */
     max-height: 200px;
 }
 
 .article-main h2 {
+    /* Text styling for article headings */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .benefits {
+    /* Size, style and positioning for aside element - floats to the right and
+    ensures no other floating elements either side */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -132,16 +158,19 @@ footer h2 {
 }
 
 .benefit-content {
+    /* colour and position of text sections within aside element */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-content h3 {
+    /* Aside element header positioning */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-content img {
+    /* Aside element image positioning and size */
     display: block;
     margin: 10px auto;
     max-width: 150px;
