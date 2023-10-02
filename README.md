@@ -10,9 +10,9 @@ In doing this I unconvered some inefficient and broken code, such as links not w
 
 This project has enabled me to learn more about semantic HTML, further my CSS and Git knowledge, as well as the requirements and standards for those with accessibility needs. In my reading, I learned about ARIA landmarks to help assistive technology users navigate easily to various sections of a page and was able to implement these in my code. I also added comments to all CSS selectors and sections of HTML to ease future development of the site, which required me to read further to fully understand the code.
 
-## Installation
+## Deployed Application
 
-N/A
+* [Code Refactor Challenge on GitHub Pages](https://partialarts.github.io/week1-refactor-challenge/)
 
 ## Usage
 
