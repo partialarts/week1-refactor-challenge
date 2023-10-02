@@ -9,13 +9,15 @@
 </head>
 
 <body>
-    <!-- Elements structured with ARIA landmarks and labels for assistive technologies"-->
+
+    <!-- Header -->
     <header role="banner">
         <h1>
         Hori<span class="seo">seo</span>n
         </h1>
+
         <!-- Navigation -->
-        <nav role="navigation" aria-label="Main menu" id="nav-main">
+        <nav id="nav-main" role="navigation" aria-label="Main menu">
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -32,28 +34,29 @@
 
 <!-- Main content -->
 <main role="main">
+
     <!-- backround img tag included for screen readers but visually hide it with .sr-only -->
     <figure class="background">
         <img class="sr-only" src="assets/images/digital-marketing-meeting.jpg" alt="4 workers at a meeting">
     </figure>
 
-    <!-- Main section -->
-    <section id="search-engine-optimization" role="contentinfo" aria-label="Services we offer" class="content">
-        <article role="contentinfo" aria-label="Article about Search Engine Optimisation" class="article-main">
+    <!-- Main services section -->
+    <section class="content" role="contentinfo" aria-label="Services we offer">
+        <article id="search-engine-optimization" class="article-main" role="contentinfo" aria-label="Article about Search Engine Optimisation">
             <img src="./assets/images/search-engine-optimization.jpg" alt="A notebook, cup of coffee, computer and a container of pens and pencills on a wooden table" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-        <article id="online-reputation-management" role="contentinfo" aria-label="Article about Online Reputation Management" class="article-main">
+        <article id="online-reputation-management" class="article-main" role="contentinfo" aria-label="Article about Online Reputation Management">
             <img src="./assets/images/online-reputation-management.jpg" alt="person working at a computer displaying a graph on the screen and holding a phone" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article id="social-media-marketing" role="contentinfo" aria-label="Article about Social Media Marketing" class="article-main">
+        <article id="social-media-marketing" class="article-main" role="contentinfo" aria-label="Article about Social Media Marketing">
             <img src="./assets/images/social-media-marketing.jpg" alt="workers collaborating around a table, with social media related words and pictures on cards visible, pictured from above" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -62,23 +65,23 @@
         </article>
         </section>
 
-    <!-- Aside content -->
-    <aside role="complementary" aria-label="The benefits of our services" class="benefits">
-        <section role="contentinfo" class="benefit-content">
+    <!-- Aside benefits section -->
+    <aside class="benefits" role="complementary" aria-label="The benefits of our services">
+        <section class="benefit-content" role="contentinfo">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Graphic showing input and output"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </section>
-        <section role="contentinfo" class="benefit-content">
+        <section class="benefit-content" role="contentinfo">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="Graphic showing person wearing a tie with a light bulb for a head"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </section>
-        <section role="contentinfo" class="benefit-content">
+        <section class="benefit-content" role="contentinfo">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="Graphic showing a gear with circular dollar symbols around it"/>
             <p>
